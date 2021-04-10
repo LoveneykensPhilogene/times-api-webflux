@@ -4,13 +4,13 @@
 
 <header> 
 <ul>
-<header><h2>Stack utilizada</h2></header>
+<header><h2>Stack utilizada</h2>
 <li><a href="">Java11</a></li>
 <li><a href="">spring webflux</a></li>
 <li><a href="">Spring data</a></li>
 <li><a href="">junit</a></li>
 <li><a href="">sl4j</a></li>
-<li><a href="">reactor</li>
+<li><a href="">reactor</li></header>
 </ul>
 </header>
 
@@ -18,7 +18,7 @@
 <h1>Para executar dynamo</h1>
 <p>
 <h4>
-Na pasta em que o jar está baixado:<a href=""> java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb</a>.
+Na pasta em que o jar está baixado<a href=""> java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb</a>.
 </h4>
 </p>
 <p>
