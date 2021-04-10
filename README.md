@@ -1,28 +1,30 @@
 <header>
 <h1>API AWS WEBFLUX</h1>
 </header>
+
 <header> 
 <ul>
-<header><p>Stack utilizada</p></header>
-<li>Java11</li>
-<li>spring webflux</li>
-<li>Spring data</li>
-<li>junit</li>
-<li>sl4j</li>
-<li>reactor</li>
+<header><h2>Stack utilizada</h2></header>
+<li><a href="">Java11</a></li>
+<li><a href="">spring webflux</a></li>
+<li><a href="">Spring data</a></li>
+<li><a href="">junit</a></li>
+<li><a href="">sl4j</a></li>
+<li><a href="">reactor</li>
 </ul>
 </header>
 
 <header>
-<h1>Para executar dynamo<h1>
+<header><h1>Para executar dynamo</h1></header>
 <p>
 <h4>
-na pasta em que o jar está baixado: java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb.
+na pasta em que o jar está baixado:<a href=""> java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb</a>.
 </h4>
 </p>
+
 <p>
 <h4>
-para listar as tabelas criadas: aws dynamodb list-tables --endpoint-url http://localhost:8000
+para listar as tabelas criadas: aws dynamodb list-tables --endpoint-url<a href=""> http://localhost:8000</a>
 </h4>
 </p>
 
