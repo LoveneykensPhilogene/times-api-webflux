@@ -18,12 +18,12 @@
 <h1>Para executar dynamo</h1>
 <p>
 <h4>
-Na pasta em que o jar está baixado<a href=""> java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb</a>.
+Na pasta em que o jar está baixado: <a href=""> java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb</a>.
 </h4>
 </p>
 <p>
 <h4>
-para listar as tabelas criadas: aws dynamodb list-tables --endpoint-url<a href=""> http://localhost:8000</a>
+para listar as tabelas criadas: aws dynamodb list-tables --endpoint-url <a href=""> http://localhost:8000</a>
 </h4>
 </p>
 </header>
